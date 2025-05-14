@@ -1,46 +1,12 @@
-Iridium Browser
+Obsidium Browser
 ===============
 
-Iridium is an open modification of the Chromium code base, with privacy being
-enhanced in several key areas. Automatic transmission of partial queries,
-keywords, metrics to central services is inhibited and only occurs with
-consent.
-
-Some more information and binary downloads can be found at
-https://iridiumbrowser.de/ .
-
+Obsidium is an open modification of the Iridium code base.
 
 Development
 ===========
 
-The repository is at git://git.iridiumbrowser.de/iridium-browser and
-https://github.com/iridium-browser/iridium-browser/ .
-
-To build from source, it is advised is to re-use the mechanisms of one's Linux
-distribution, that is, their build environment and description for chromium,
-and replacing the source tarball by the one from
-https://dl.iridiumbrowser.de/source/ .
-
-Be aware there are different types of source code collections:
-
-* The "chromium-git state" where one needs to run gclient to download
-  additional sourc code.
-
-* The "tarball state" where we imported the source code from
-  https://commondatastorage.googleapis.com/chromium-browser-official/ into Git.
-  This has all source present.
-
-The current Git branch you are looking at and reading this README.rst from
-is in the **tarball state**.
-
-
-Reporting bugs and issues
-=========================
-
-Use the Iridium Browser `issue tracker`_ on GitHub to report your findings.
-
-.. _issue tracker: https://github.com/iridium-browser/iridium-browser/issues
-
+The repository is at https://github.com/iridium-browser/iridium-browser/ .
 
 Build steps for chromium-git state
 ==================================
@@ -76,7 +42,7 @@ From here on, steps apply to both source builds of any kind, that is,
 chromium-git or tarball state.
 
 
-Steps for tarball state
+Steps for tarball stateHP Victus 15.6 i5
 =======================
 
 5) The gn files in Iridium are edited to respect the ``$CC`` etc. environment variables.
