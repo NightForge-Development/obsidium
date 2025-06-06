@@ -6,7 +6,7 @@ Obsidium is an open modification of the Iridium code base.
 Development
 ===========
 
-The repository is at https://github.com/iridium-browser/iridium-browser/ .
+The repository is at https://github.com/NightForge-Development/obsidium .
 
 Build steps for chromium-git state
 ==================================
